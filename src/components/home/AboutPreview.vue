@@ -58,7 +58,7 @@ import { RouterLink } from 'vue-router'
               <span class="detail-label">FOCUS</span>
               <span class="detail-value">Web Development</span>
               <span class="detail-note">
-                Frontend and full-stack development
+                Full-stack development
               </span>
             </div>
           </div>

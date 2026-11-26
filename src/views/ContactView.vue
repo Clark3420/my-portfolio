@@ -94,23 +94,26 @@ async function sendEmail() {
           <div class="contact-details">
             <div class="contact-detail">
               <span class="detail-label">EMAIL</span>
-              <p>Email address coming soon</p>
+              <p>clarkortiz99@gmail.com</p>
             </div>
 
             <div class="contact-detail">
               <span class="detail-label">LOCATION</span>
-              <p>Philippines</p>
+              <p>Manila, Philippines</p>
             </div>
           </div>
 
           <div class="contact-socials">
             <span class="detail-label">FIND ME ONLINE</span>
             <div class="social-links">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Clark3420" target="_blank" rel="noopener noreferrer">
                 GitHub ↗
               </a>
               <a href="#" target="_blank" rel="noopener noreferrer">
-                LinkedIn ↗
+                Facebook ↗
+              </a>
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                Instagram ↗
               </a>
             </div>
           </div>

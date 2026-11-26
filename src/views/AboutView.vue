@@ -28,7 +28,7 @@
           </p>
 
           <p>
-            Over time, I became particularly interested in web development
+            I became particularly interested in web development
             and creating applications that are useful, intuitive, and
             thoughtfully designed.
           </p>
@@ -79,6 +79,10 @@
               management website using Django and Bootstrap, and contributed
               to an ERP system during my internship.
             </p>
+            <a href="/resume/test.pdf" class="button-primary" download>
+              Download resume
+              <span>↓</span>
+            </a>
           </div>
         </div>
       </div>
@@ -131,5 +135,30 @@
   .about-detail {
     padding-left: 1rem;
   }
+}
+
+.button-primary {
+  display: inline-flex;
+  min-height: 52px;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  padding: 0 1.5rem;
+  color: var(--color-text-inverse);
+  background-color: var(--color-primary);
+  font-size: 0.85rem;
+  transition:
+    background-color var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.button-primary:hover {
+  color: var(--color-text-inverse);
+  background-color: var(--color-secondary);
+}
+
+.button-primary span {
+  font-size: 1.1rem;
 }
 </style>

@@ -22,6 +22,7 @@ import { RouterLink } from 'vue-router'
           meaningful applications through thoughtful design and technology.
         </p>
 
+        
         <div class="hero-actions">
           <RouterLink to="/projects" class="button-primary">
             Explore my work
@@ -31,6 +32,11 @@ import { RouterLink } from 'vue-router'
           <RouterLink to="/about" class="button-secondary">
             More about me
           </RouterLink>
+
+          <a href="/resume/test.pdf" class="button-secondary" download>
+            Download resume
+            <span>↓</span>
+          </a>
         </div>
 
         <div class="hero-meta">
